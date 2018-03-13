@@ -75,6 +75,14 @@ This will boot up a local express server and serve most of your assets from `htt
 
 > ⓘ Because we are running localhost on `https` you will need to visit this URL at least once and tell your browser to trust it, otherwise local assets will be blocked. Alternatively, you could [create a trusted SSL certificate for localhost](#how-to-create-a-trusted-local-ssl-certificate).
 
+
+```
+yarn start --skipFirstDeploy
+```
+
+If you don't want to deploy to Shopify servers when starting the development server
+
+
 ## Features & Concepts
 
 #### Local Development Assets Server
